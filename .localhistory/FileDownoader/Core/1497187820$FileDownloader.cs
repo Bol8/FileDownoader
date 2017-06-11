@@ -72,12 +72,6 @@ namespace FileDownloader.Core
             return list;
         }
 
-
-        /// <summary>
-        /// Método que devuelve los datos de un fichero.
-        /// </summary>
-        /// <param name="path"></param>
-        /// <returns></returns>
         public string[] getFile(string path)
         {
             return System.IO.File.ReadAllLines(path);

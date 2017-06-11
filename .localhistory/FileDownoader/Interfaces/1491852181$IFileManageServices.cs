@@ -11,6 +11,6 @@ namespace FileDownloader.Interfaces
         void DownloadFile(string pathRemoteResource, string pathLocalResource, string localFileName);
         void DownloadFiles(List<string> fileNameList, string pathRemoteResource, string pathLocalResource);
         List<string[]> getFiles(List<string> pathList);
-        string[] getFile(string path);
+
     }
 }
